@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Actividades por hacer</title>
+</head>
+
+<body>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			font-size: 20px;
+		}
+
+		body {
+			background-color: #1b3039;
+		}
+
+		.header {
+			background-color: #1b3039;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 85px;
+			padding: 5px;
+		}
+
+		.header nav {
+			flex-grow: 1;
+			display: flex;
+			justify-content: center;
+		}
+
+		.header .nav-titulos {
+			list-style: none;
+			display: flex;
+		}
+
+		.header .nav-titulos li {
+			padding: 0 15px;
+		}
+
+		.header .nav-titulos li a:hover {
+			color: #f8f8f8;
+			transform: scale(1.1);
+		}
+
+
+		.header .nav-titulos a {
+			font-size: 700;
+			color: white;
+			text-decoration: none;
+			text-align: center;
+			display: block;
+		}
+		.nav-titulos li a{
+			color: white;
+
+		}
+		.contenido {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.contenido div {
+			text-align: center;
+			margin: 20px;
+		}
+
+		.contenido img {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.segundo-contenido {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.segundo-contenido div {
+			margin: 20px 0;
+
+		}
+
+		.tradicion img,
+		.destacados img{
+			max-width: 80%;
+			height: auto;
+		}
+		h1{
+			color: white;
+			cursor: pointer;
+		}
+		
+	</style>
+	<header class="header">
+		<nav>
+			<ul class="nav-titulos">
+				<li><a href="#titulo1">Naturaleza y actividades al aire libre</a></li>
+				<li><a href="#titulo2">Tradicion</a></li>
+				<li><a href="#titulo3">Gastronomia</a></li>
+				<li><a href="#titulo4">Arte y Cultura</a></li>
+				<li><a href="#titulo5">Ciudades</a></li>
+				<li><a href="#titulo6">Destacados</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="contenido">
+		<div>
+			<h1 id="titulo1">Recomendaciones Principales</h1>
+			<a href="https://www.japan.travel/es/destinations/kanto/tokyo/tokyo-tower-and-around/"><img
+					src="./img/Screenshot from 2023-08-15 08-53-10.png"></a>
+		</div>
+		<div>
+			<h1 id="titulo5">Ciudades</h1>
+			<a href="https://www.japan.travel/es/things-to-do/attraction/scenic-spot/"><img
+					src="./img/Screenshot from 2023-08-15 09-09-55.png"></a>
+		</div>
+		<div>
+			<h1 id="titulo3">Gastronomia</h1>
+			<a href="https://www.japan.travel/es/gastronomy/"><img
+					src="./img/Screenshot from 2023-08-15 09-07-43.png"></a>
+		</div>
+		<div>
+			<h1 id="titulo4">Arte y Cultura</h1>
+			<a href="https://www.japan.travel/es/things-to-do/art-and-design/art-museum/"><img
+					src="./img/Screenshot from 2023-08-15 09-08-57.png"></a>
+		</div>
+	</div>
+	<div class="segundo-contenido">
+		<div class="tradicion">
+			<h1 id="titulo2">Tradicion</h1>
+			<a href="https://www.japan.travel/es/destinations/kanto/tokyo/tokyo-tower-and-around/"><img
+					src="./img/Screenshot from 2023-08-15 08-59-05.png"></a>
+		</div>
+		<div class="destacados">
+			<h1 id="titulo6">Destacados</h1>
+			<a href="https://www.japan.travel/es/experiences-in-japan/"><img
+					src="./img/Screenshot from 2023-08-15 09-10-56.png"></a>
+		</div>
+	</div>
+
+	</div>
+</body>
+
+</html>
